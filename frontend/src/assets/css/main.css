@@ -1,0 +1,126 @@
+#app {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  /* color: #eee; */
+  /* margin-top: 60px; */
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  /* background-color: #131313; */
+  background-size: 20px 20px;
+}
+
+.helper-text {
+  text-align: left;
+  color: #ac1d13 !important;
+}
+
+.logo {
+  width: 16em;
+}
+
+.base-colour {
+  background-color: #26a69a !important;
+}
+
+.base-text-colour {
+  color: #26a69a !important;
+}
+
+.new-back-colour {
+  background-color: #f8fafd !important;
+}
+
+.new-width {
+  width: 98% !important;
+}
+
+.list-width {
+  width: 98% !important;
+  max-width: 100% !important;
+}
+
+.error-text {
+  color: #F44336 !important;
+}
+
+.brand-logo {
+  padding-top: 5px !important;
+}
+
+nav a.sidenav-trigger {
+  display: initial !important;
+  float:left;
+  position:relative;
+  z-index:1;
+  height:56px;
+  margin:0 18px
+}
+
+.divLine {
+  height: 3px !important;
+}
+
+.entryButton {
+  margin: 0.5rem !important;
+}
+
+
+/* .tabs .tab a {
+  color: #26a69a !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #26a69a !important;
+} */
+
+/* .tabs .indicator {
+  background-color: #26a69a !important;
+} */
+
+.small-card {
+  height: 13rem !important;
+  padding-top: 1rem !important;
+}
+
+.link-size {
+  height: 9rem !important;
+  font-size: 6rem;
+}
+
+.small-title {
+  margin-top: 0.2rem !important;
+}
+
+.new-box {
+  /* border-color: #009688 !important; */
+  border: 0rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.delete-color {
+  background-color: #ee6e73 !important;
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto/roboto-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/roboto/roboto-v18-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto/roboto-v18-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto/roboto-v18-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto/roboto-v18-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto/roboto-v18-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}

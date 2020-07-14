@@ -1,0 +1,21 @@
+{
+ "name": "simplycrm",
+ "description": "Enter your project description",
+ "author": {
+  "name": "Steven Snowball",
+  "email": "steven.snowball@zoho.com"
+ },
+ "version": "0.1.0",
+ "binaryname": "simplycrm",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "WailsVersion": "",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": ""
+}
